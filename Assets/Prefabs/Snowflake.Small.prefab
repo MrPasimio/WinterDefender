@@ -245,3 +245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 1
   gm: {fileID: 0}
+  rb: {fileID: 0}
+  smallerSnowflake: {fileID: 0}
+  smallerSnowflakesToSpawn: 0
+  forceRange: 15
+  torqueRange: 5
