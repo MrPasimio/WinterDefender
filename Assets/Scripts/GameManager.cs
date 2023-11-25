@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public float horizontalLimit;
     public float verticalLimit;
     public float offset;
+    public float safetyRadius;
 
 
     // Start is called before the first frame update
