@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
     private float verticalInput;
     private Rigidbody rb;
 
+    //Shooting Variables
+    public GameObject bullet;
+    public GameObject bulletSpawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +30,13 @@ public class PlayerController : MonoBehaviour
         //Rotation
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Rotate(Vector3.back, turnSpeed * Time.deltaTime * horizontalInput);
+
+        //Shoot
+        if(Input.GetButtonDown("Fire1"))
+        {
+            //Debug.Log("Fire1 was pressed");
+            Instantiate(bullet, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
+        }
 
 
     }
