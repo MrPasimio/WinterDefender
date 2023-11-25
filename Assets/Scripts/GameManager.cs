@@ -8,6 +8,12 @@ public class GameManager : MonoBehaviour
     public int score;
     public TextMeshProUGUI scoreDisplay;
 
+    //ScreenLimits
+    [Header("Screen Limits")]
+    public float horizontalLimit;
+    public float verticalLimit;
+    public float offset;
+
 
     // Start is called before the first frame update
     void Start()

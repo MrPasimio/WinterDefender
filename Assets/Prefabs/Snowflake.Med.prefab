@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3868114026002839734}
   - component: {fileID: 3868114026002839735}
   - component: {fileID: 3868114026002839733}
+  - component: {fileID: -9187054349559157996}
   m_Layer: 0
   m_Name: Snowflake.Med
   m_TagString: Untagged
@@ -84,6 +85,22 @@ MonoBehaviour:
   smallerSnowflakesToSpawn: 2
   forceRange: 5
   torqueRange: 20
+--- !u!114 &-9187054349559157996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4138567161115996389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c3e07d453ca941bd8b6c01e22ed63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  horizontalLimit: 0
+  verticalLimit: 0
+  offset: 0
 --- !u!1 &4477192356174856144
 GameObject:
   m_ObjectHideFlags: 0

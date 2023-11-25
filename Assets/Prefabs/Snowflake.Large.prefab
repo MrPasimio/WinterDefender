@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 5111510317705219341}
   - component: {fileID: 5111510317705219340}
   - component: {fileID: 5111510317705219342}
+  - component: {fileID: -5621899554387908508}
   m_Layer: 0
   m_Name: Snowflake.Large
   m_TagString: Untagged
@@ -167,6 +168,22 @@ MonoBehaviour:
   smallerSnowflakesToSpawn: 2
   forceRange: 10
   torqueRange: 10
+--- !u!114 &-5621899554387908508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345441103994733918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c3e07d453ca941bd8b6c01e22ed63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  horizontalLimit: 0
+  verticalLimit: 0
+  offset: 0
 --- !u!1 &5576538263410166379
 GameObject:
   m_ObjectHideFlags: 0
