@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3868114026002839735}
   - component: {fileID: 3868114026002839733}
   m_Layer: 0
-  m_Name: Snowflake
+  m_Name: Snowflake.Med
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,6 +79,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointValue: 1
   gm: {fileID: 0}
+  smallerSnowflake: {fileID: 6890797614383373445, guid: f8308b6353536394ca77fd6bea85f35d, type: 3}
+  smallerSnowflakesToSpawn: 2
 --- !u!1 &4477192356174856144
 GameObject:
   m_ObjectHideFlags: 0
